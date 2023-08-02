@@ -17,11 +17,21 @@ namespace TestRomanNumbers
         [Fact(DisplayName = "ETANT DONNE le chiffre 2" +
                             "QUAND je le convertis en nombre romains" +
                             "ALORS j'obtiens 1 fois 1")]
-        public void Testdeux()
+        public void TestDeux()
         {
             const uint chiffre = 2;
             var nombreRomain = ConvertisseurRoman.Transforme(chiffre);
             Assert.Equal("II", nombreRomain);
+        }
+
+        [Fact(DisplayName = "ETANT DONNE le chiffre 3" +
+                    "QUAND je le convertis en nombre romains" +
+                    "ALORS j'obtiens 1 fois 1")]
+        public void TestTrois()
+        {
+            const uint chiffre = 3;
+            var nombreRomain = ConvertisseurRoman.Transforme(chiffre);
+            Assert.Equal("III", nombreRomain);
         }
     }
 }
