@@ -6,7 +6,14 @@ namespace Convertisseur
     {
         public static string Transforme(uint chiffreArabe)
         {
-            return null;
+            if (chiffreArabe == 1)
+            {
+                return new string('I', (int)chiffreArabe);
+            }
+            else
+            {
+                return "Non pris en charge";
+            }
         }
     }
 }
