@@ -9,7 +9,8 @@ namespace Convertisseur
         {
             <= 3 => new string('I', (int)chiffreArabe),
             4 => "IV",
-            5 => "V"
+            5 => "V",
+            6 => "VI"
         };
     }
 }
