@@ -44,5 +44,17 @@ namespace TestRomanNumbers
 
             Assert.Equal("V", nombreRomain);
         }
+
+        [Fact(DisplayName = "ETANT DONNE le chiffre 6 " +
+            "QUAND je le convertis en nombres romains " +
+            "ALORS j'obtiens VI")]
+        public void TestSix()
+        {
+            const uint chiffreArabe = 6;
+
+            var nombreRomain = ConvertisseurRoman.Transforme(chiffreArabe);
+
+            Assert.Equal("VI", nombreRomain);
+        }
     }
 }
