@@ -19,7 +19,7 @@ namespace TestRomanNumbers
                             "ALORS j'obtiens 1 fois 1")]
         public void Testdeux()
         {
-            const uint chiffre = 1;
+            const uint chiffre = 2;
             var nombreRomain = ConvertisseurRoman.Transforme(chiffre);
             Assert.Equal("II", nombreRomain);
         }

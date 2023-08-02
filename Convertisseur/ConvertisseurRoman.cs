@@ -8,7 +8,11 @@ namespace Convertisseur
         {
             if (chiffreArabe == 1)
             {
-                return new string('I', (int)chiffreArabe);
+                return "I";
+            }
+            else if (chiffreArabe == 2)
+            {
+                return "II";
             }
             else
             {
