@@ -14,6 +14,10 @@ namespace Convertisseur
             {
                 return "II";
             }
+            else if (chiffreArabe == 3)
+            {
+                return "III";
+            }
             else
             {
                 return "Non pris en charge";
