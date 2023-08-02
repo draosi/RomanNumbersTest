@@ -8,7 +8,8 @@ namespace Convertisseur
         => chiffreArabe switch
         {
             <= 3 => new string('I', (int)chiffreArabe),
-            4 => "IV"
+            4 => "IV",
+            5 => "V"
         };
     }
 }
