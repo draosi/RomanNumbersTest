@@ -1,4 +1,5 @@
 using Convertisseur;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TestRomanNumbers
 {
@@ -18,6 +19,18 @@ namespace TestRomanNumbers
 
             var résultatAttendu = new string(Enumerable.Repeat('I', (int)nombre).ToArray());
             Assert.Equal(résultatAttendu, nombreRomain);
+        }
+
+        [Fact(DisplayName = "ETANT DONNE le chiffre 4 " +
+                            "QUAND je le convertis en nombres romains " +
+                            "ALORS j'obtiens IV")]
+        public void TestQuatre()
+        {
+            const uint chiffreArabe = 4;
+
+            var nombreRomain = ConvertisseurRoman.Transforme(chiffreArabe);
+
+            Assert.Equal("IV", nombreRomain);
         }
     }
 }
