@@ -4,34 +4,20 @@ namespace TestRomanNumbers
 {
     public class RomanTest
     {
-        [Fact(DisplayName = "ETANT DONNE le chiffre 1" +
-                            "QUAND je le convertis en nombre romains" +
-                            "ALORS j'obtiens 1 fois 1")]
-        public void TestUn()
-        {
-            const uint chiffre = 1;
-            var nombreRomain = ConvertisseurRoman.Transforme(chiffre);
-            Assert.Equal("I", nombreRomain);
-        }
 
-        [Fact(DisplayName = "ETANT DONNE le chiffre 2" +
-                            "QUAND je le convertis en nombre romains" +
-                            "ALORS j'obtiens 1 fois 1")]
-        public void TestDeux()
-        {
-            const uint chiffre = 2;
-            var nombreRomain = ConvertisseurRoman.Transforme(chiffre);
-            Assert.Equal("II", nombreRomain);
-        }
+        [Theory(DisplayName = "ETANT DONNE le chiffre <nombre> " +
+                              "QUAND je le convertis en nombres romains " +
+                              "ALORS j'obtiens <nombre> fois I")]
 
-        [Fact(DisplayName = "ETANT DONNE le chiffre 3" +
-                    "QUAND je le convertis en nombre romains" +
-                    "ALORS j'obtiens 1 fois 1")]
-        public void TestTrois()
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        public void TestDeUnDeuxTrois(uint nombre)
         {
-            const uint chiffre = 3;
-            var nombreRomain = ConvertisseurRoman.Transforme(chiffre);
-            Assert.Equal("III", nombreRomain);
+            var nombreRomain = ConvertisseurRoman.Transforme(nombre);
+
+            var résultatAttendu = new string(Enumerable.Repeat('I', (int)nombre).ToArray());
+            Assert.Equal(résultatAttendu, nombreRomain);
         }
     }
 }
