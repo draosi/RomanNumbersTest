@@ -32,5 +32,17 @@ namespace TestRomanNumbers
 
             Assert.Equal("IV", nombreRomain);
         }
+
+        [Fact(DisplayName = "ETANT DONNE le chiffre 5 " +
+                    "QUAND je le convertis en nombres romains " +
+                    "ALORS j'obtiens V")]
+        public void TestCinq()
+        {
+            const uint chiffreArabe = 5;
+
+            var nombreRomain = ConvertisseurRoman.Transforme(chiffreArabe);
+
+            Assert.Equal("V", nombreRomain);
+        }
     }
 }
