@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Convertisseur\Convertisseur.csproj" />
+  </ItemGroup>
+
 </Project>

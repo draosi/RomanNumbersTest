@@ -1,0 +1,12 @@
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\bin\Debug\net7.0\Convertisseur.deps.json
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\bin\Debug\net7.0\Convertisseur.dll
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\bin\Debug\net7.0\Convertisseur.pdb
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\obj\Debug\net7.0\Convertisseur.csproj.AssemblyReference.cache
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\obj\Debug\net7.0\Convertisseur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\obj\Debug\net7.0\Convertisseur.AssemblyInfoInputs.cache
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\obj\Debug\net7.0\Convertisseur.AssemblyInfo.cs
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\obj\Debug\net7.0\Convertisseur.csproj.CoreCompileInputs.cache
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\obj\Debug\net7.0\Convertisseur.dll
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\obj\Debug\net7.0\refint\Convertisseur.dll
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\obj\Debug\net7.0\Convertisseur.pdb
+C:\Users\Isoard\Desktop\Alternance\C#\RomanNumbers\RomanNumbersTest\Convertisseur\obj\Debug\net7.0\ref\Convertisseur.dll
