@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumbersTest", "RomanNumbersTest\RomanNumbersTest.csproj", "{51269575-4B2A-42E5-BC0E-4DCF6628598D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRomanNumbers", "TestRomanNumbers\TestRomanNumbers.csproj", "{9A4F9E7C-0CE1-4199-AF37-84F07D882409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertisseur", "Convertisseur\Convertisseur.csproj", "{4A37C1DA-5523-4DEA-909A-26B8D79F6B2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{51269575-4B2A-42E5-BC0E-4DCF6628598D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51269575-4B2A-42E5-BC0E-4DCF6628598D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51269575-4B2A-42E5-BC0E-4DCF6628598D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4F9E7C-0CE1-4199-AF37-84F07D882409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4F9E7C-0CE1-4199-AF37-84F07D882409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4F9E7C-0CE1-4199-AF37-84F07D882409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4F9E7C-0CE1-4199-AF37-84F07D882409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A37C1DA-5523-4DEA-909A-26B8D79F6B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A37C1DA-5523-4DEA-909A-26B8D79F6B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A37C1DA-5523-4DEA-909A-26B8D79F6B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A37C1DA-5523-4DEA-909A-26B8D79F6B2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
